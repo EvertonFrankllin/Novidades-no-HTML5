@@ -7,7 +7,7 @@ O elemento HTML `<dialog>` é usado para criar caixas de diálogo modais e não 
 Exemplo:
 
     <dialog open>
-	   <p>Veja como ficou fácio o meu uso</p>
+	   <p>Veja como ficou fácil o meu uso</p>
 	   <form method="dialog">
 		<button> Acessar</button>
 	   </form>

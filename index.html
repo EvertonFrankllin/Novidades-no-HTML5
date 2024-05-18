@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novidade HTML 5</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+
+        }
+        .dialog dialog{
+            margin-top: 100px;
+        }
+        .popover{
+            margin-top: 300px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="dialog">
+        <h2>Exemplo de uso de Dialog</h2>
+
+        <dialog open>
+            <p>Veja como ficou fácil o meu uso</p>
+            <form method="dialog">
+            <button> Acessar</button>
+            </form>
+        <dialog/>
+    </div>
+
+     <div class="popover">
+
+        <h2>Exemplo de uso de Popover</h2>
+
+        <button popovertarget="my-popover">Open Popover</button>
+
+        <div popover id="my-popover">Greetings, one and all!</div>
+     </div>
+</body>
+</html>
